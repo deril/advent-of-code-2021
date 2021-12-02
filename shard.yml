@@ -1,0 +1,13 @@
+name: adventofcode
+version: 0.1.0
+
+authors:
+  - Dmytro Bihniak <bignyak@bigmir.net>
+
+targets:
+  adventofcode:
+    main: src/adventofcode.cr
+
+crystal: 1.2.2
+
+license: MIT
