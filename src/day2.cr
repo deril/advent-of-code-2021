@@ -18,6 +18,13 @@ module Day2
     end
   end
 
+  def run
+    puts "Day 2"
+    input = File.read_lines("resource/day2.txt")
+    puts part1(input)
+    puts part2(input)
+  end
+
   def part1(input : Array(String)) : Int32
     position = Point.new(0, 0)
     input.each do |command|

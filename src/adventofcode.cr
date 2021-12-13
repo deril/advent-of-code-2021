@@ -1,19 +1,16 @@
 require "./day1"
 require "./day2"
+require "./day3"
+require "./day4"
 
 module Adventofcode
   extend self
 
   def run
-    puts "Day 1"
-    day1_input = File.read_lines("resource/day1.txt")
-    puts Day1.part1(day1_input)
-    puts Day1.part2(day1_input)
-
-    puts "Day 2"
-    day2_input = File.read_lines("resource/day2.txt")
-    puts Day2.part1(day2_input)
-    puts Day2.part2(day2_input)
+    # Day1.run
+    # Day2.run
+    # Day3.run
+    # Day4.run
   end
 end
 
