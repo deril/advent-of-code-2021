@@ -3,6 +3,7 @@ require "./day2"
 require "./day3"
 require "./day4"
 require "./day5"
+require "./day6"
 
 module Adventofcode
   extend self
@@ -13,6 +14,7 @@ module Adventofcode
     # Day3.run
     # Day4.run
     # Day5.run
+    # Day6.run
   end
 end
 
