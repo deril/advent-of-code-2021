@@ -1,7 +1,7 @@
 require "./spec_helper"
 require "../src/day7"
 
-describe Day6 do
+describe Day7 do
   describe "#part1" do
     it "correctly finds fish count after 80 days" do
       data = ["16,1,2,0,4,2,7,1,2,14"]
