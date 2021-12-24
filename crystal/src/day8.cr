@@ -21,8 +21,8 @@ class Day8
     data = input.map do |line|
       sides = line.split(" | ")
       {
-        input: sides[0].split(" ").map(&.chars.sort!),
-        output: sides[1].split(" ").map(&.chars.sort!)
+        input:  sides[0].split(" ").map(&.chars.sort!),
+        output: sides[1].split(" ").map(&.chars.sort!),
       }
     end
 
@@ -35,7 +35,7 @@ class Day8
   private def decode(input)
     default_value = Array(Char).new
     one = input.find { |num| num.size == 2 } || default_value
-    four = input.find { |num| num.size == 4 }  || default_value
+    four = input.find { |num| num.size == 4 } || default_value
     seven = input.find { |num| num.size == 3 } || default_value
     eight = input.find { |num| num.size == 7 } || default_value
     nine = input.find { |num| num.size == 6 && (num - four - seven).size == 1 } || default_value

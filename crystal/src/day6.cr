@@ -28,7 +28,7 @@ class Day6
     if t <= 0
       1.to_i64
     else
-      cache.has_key?(t) ? cache[t] :  (cache[t] = calc(t - 7) + calc(t - 9))
+      cache.has_key?(t) ? cache[t] : (cache[t] = calc(t - 7) + calc(t - 9))
     end
   end
 end

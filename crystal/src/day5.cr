@@ -84,7 +84,7 @@ class Day5
 
       [
         Point.new(x1, y1),
-        Point.new(x2, y2)
+        Point.new(x2, y2),
       ]
     end
   end

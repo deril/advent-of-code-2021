@@ -19,7 +19,7 @@ class Day4
     create_boards
   end
 
-  def part1() : Int32
+  def part1 : Int32
     drawn_numbers.each do |number|
       boards.each do |board|
         board.mark_number(number)

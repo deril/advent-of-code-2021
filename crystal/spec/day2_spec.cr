@@ -10,7 +10,7 @@ describe Day2 do
         "forward 8",
         "up 3",
         "down 8",
-        "forward 2"
+        "forward 2",
       ]
 
       Day2.part1(data).should eq(150)
@@ -18,15 +18,15 @@ describe Day2 do
   end
 
   describe "#part2" do
-      data = [
-        "forward 5",
-        "down 5",
-        "forward 8",
-        "up 3",
-        "down 8",
-        "forward 2"
-      ]
+    data = [
+      "forward 5",
+      "down 5",
+      "forward 8",
+      "up 3",
+      "down 8",
+      "forward 2",
+    ]
 
-      Day2.part2(data).should eq(900)
+    Day2.part2(data).should eq(900)
   end
 end

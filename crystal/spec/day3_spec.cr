@@ -16,7 +16,7 @@ describe Day3 do
         "10000",
         "11001",
         "00010",
-        "01010"
+        "01010",
       ]
 
       Day3.part1(data).should eq(198)
@@ -37,7 +37,7 @@ describe Day3 do
         "10000",
         "11001",
         "00010",
-        "01010"
+        "01010",
       ]
 
       Day3.part2(data).should eq(230)
