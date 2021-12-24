@@ -3,6 +3,6 @@
 /bin/
 /.shards/
 *.dwarf
-/nimcache/
-/testresults/
+/**/testresults/
+/**/nimcache/
 .DS_Store
