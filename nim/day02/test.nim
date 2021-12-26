@@ -8,7 +8,7 @@ let testInput = @[
         "up 3",
         "down 8",
         "forward 2",
-      ]
+    ]
 
 test "correctly determines final position":
     check part1(testInput) == 150

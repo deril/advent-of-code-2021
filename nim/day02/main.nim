@@ -2,7 +2,7 @@ import strutils, strscans
 
 proc part1*(input: seq[string]): int =
     ## [x, y]
-    var 
+    var
         coordinates: array[2, int] = [0, 0]
         action: string
         num: int
@@ -19,7 +19,7 @@ proc part1*(input: seq[string]): int =
 
 proc part2*(input: seq[string]): int =
     ## [x, y, aim]
-    var 
+    var
         coordinates: array[3, int] = [0, 0, 0]
         action: string
         num: int
