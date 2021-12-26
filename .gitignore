@@ -6,3 +6,6 @@
 /**/testresults/
 /**/nimcache/
 .DS_Store
+main
+test
+adventofcode
